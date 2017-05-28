@@ -1,0 +1,23 @@
+{
+  "name": "npm-info",
+  "version": "0.1.0",
+  "description": "Universal npm info model",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/leozdgao/npm-info.git",
+  "author": "leozdgao <gzdleo0816@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "semver": "^5.3.0",
+    "urllib": "^2.22.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
